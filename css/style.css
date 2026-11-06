@@ -50,7 +50,7 @@
       animation-name: move-arrow;
       animation-duration: 1s;
       animation-iteration-count: infinite;
-      animation-timing-function: linear;
+      animation-timing-function: cubic-bezier(.17,.67,.94,-0.7);
       animation-direction: alternate;
     }
     .col:is(.download) .badge{
