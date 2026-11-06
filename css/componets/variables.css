@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'BPG BPG Square 38 Caps Cond';
+  src: url(../../fonts/bpg-square-38-caps-cond-8eafdcae.ttf);
+}
+@font-face {
+  font-family: 'BPG BPG Square 38 Cond';
+  src: url(../../fonts/bpg-square-38-ccond-81b51a4e.ttf);
+}
+/* ცვლადები */
+:root{
+  /* ზომა */
+    /* სივრცე */
+    --sp-smallest: calc(3/16 * 1rem);
+    --sp-smaller: calc(6/16 * 1rem);
+    --sp-small: calc(12/16 * 1rem);
+    --sp-normal: calc(16/16 * 1rem);
+    --sp-medium: calc(24/16 * 1rem);
+    --sp-large: calc(32/16 * 1rem);
+    --sp-larger: calc(64/16 * 1rem);
+    /* ფშრიფტი */
+    --fs-normal: calc(16/16 * 1rem);
+    --fs-medium: calc(18/16 * 1rem);
+    --fs-large: calc(24/16 * 1rem);
+    --fs-larger: calc(36/16 * 1rem);
+  /* ფერი */
+  --c-light: hsl(0, 0%, 100%);
+  --c-dark: hsl(0, 0%, 20%);
+  --c-base: hsl(120, 100%, 50%);
+  --c-accent-light: hsl(220, 100%, 90%);
+}

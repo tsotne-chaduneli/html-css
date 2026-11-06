@@ -1,0 +1,29 @@
+/* საერთო */
+.d-wrapper{
+  width: 80%;
+}
+.d-wrapper{
+  margin-inline: auto;
+}
+.flex{
+  display: flex;
+}
+.grid{
+  display: grid;
+}
+.space-between{
+  justify-content: space-between;
+}
+.align-center{
+  align-items: center;
+}
+.column{
+  flex-direction: column;
+}
+.column-mobile{
+  flex-direction: column;
+  /* პლანშეტი => */
+  @media screen and (min-width:768px){
+    flex-direction: row;
+  }
+}

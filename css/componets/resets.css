@@ -1,0 +1,26 @@
+/* საწყისები */
+*{
+  box-sizing: border-box;
+}
+body, h1, h2, h3, h4, ul, li, p{
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'BPG BPG Square 38 Caps Cond';
+}
+body{
+  font-family: 'BPG BPG Square 38 Cond';
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+button{
+  background-color: transparent;
+}
+button{
+  border: none;
+}
